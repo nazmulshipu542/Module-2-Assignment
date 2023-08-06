@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="imageid" src="flower.jpg" height="500" width="400"><br>
+    <button onclick="firstImage()">First Image</button>
+    <button onclick="secondImage()">Second Image</button>
+    <script>
+        let myImage = document.querySelector("#imageid");
+
+        function firstImage(){
+            myImage.src = "cat.jpg";
+        }
+        
+        function secondImage(){
+            myImage.src = "tiger.jpg";
+        }
+
+    </script>
+</body>
+</html>

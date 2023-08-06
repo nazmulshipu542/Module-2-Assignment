@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter</title>
+</head>
+<body><h1>
+    <p>Click Counter</p><br><br>
+    <button onclick="increment()"><h1>+</h1></button><br><br>
+    <span id="valueDisplay"><h1>0</h1></span><br><br>
+    <button onclick="decrement()"><h1>-</h1></button><br><br>
+    <script>
+
+        let count = 0;
+        const valueDisplay = document.getElementById("valueDisplay");
+        cosole.log(valueDisplay);
+        
+        function increment(){
+            count++;
+            valueDisplay.innerText = count;
+            console.log(count);
+        }
+
+        function decrement(){
+            count--;
+            valueDisplay.innerText = count;
+            cosole.log(count);
+        }
+
+    </script>
+    
+    </body></h1>
+</html>
